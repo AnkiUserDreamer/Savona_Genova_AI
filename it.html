@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Technology - ICT Decision Support</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome (opzionale per le icone) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ICT Decision Support</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">Esplora</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header di Information Technology -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Information Technology</h1>
+            <p class="lead">Definizione e Approfondimenti</p>
+            <a href="explore.html" class="btn btn-light btn-sm mt-3 btn-hover">Torna alla pagina di esplorazione</a>
+        </div>
+    </header>
+
+    <!-- Contenuto Principale -->
+    <section class="py-5">
+        <div class="container">
+            
+            <!-- Nuovo Testo Inserito -->
+            <div class="mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-8" style="max-width: 900px; margin: 0 auto; text-align: justify;">
+                        <h3 class="fw-bold text-center">Cos'è l'Information Technology per il tuo business?</h3>
+                                                                    
+                        <p class="text-center">L'<strong>informazione</strong> di ogni <strong>business</strong> è il <strong>core</strong>, il <strong>cuore</strong>.</p>
+                        
+                        <p class="text-center">Ma <strong>non tutte le informazioni</strong> hanno lo stesso <strong>valore</strong>.</p>
+                        
+                        <p>Dare una <strong>misura</strong> e una <strong>visione ingegneristica</strong> alle <strong>informazioni</strong> è fondamentale per supportare le decisioni di <strong>produzione</strong>, <strong>investimento</strong> e di <strong>pianificazione</strong>.</p>
+                        
+                        <p>La capacità di <strong>capire</strong> quali <strong>informazioni</strong> sono le più importanti, <strong>centrali</strong>, quali sono da tenere <strong>monitorate</strong>, quali invece, prese da sole, <strong>non raggiungono abbastanza importanza</strong> per dedicargli tempo (misurabile come un <strong>costo</strong> del <strong>business</strong>), mentre invece <strong>aggregate</strong> ed <strong>elaborate</strong> possono raggiungere l'entità di un <strong>valore aggiunto</strong>.</p>
+                        
+                        <p>Questo è lo <strong>scopo principale</strong> per cui deve essere modellata l'<strong>infrastruttura IT</strong>, <strong>settorializzando</strong> e creando <strong>scambi informativi</strong> tra i diversi sistemi del <strong>business</strong>, che sia di <strong>piccole</strong> o <strong>medie dimensioni</strong>.</p>
+                        
+                        <p>L'<strong>Information Technology</strong> è molte volte associata esclusivamente alla <strong>digitalizzazione</strong> e alla parte informatica di un'azienda.</p>
+                        
+                        <p>Ma lo scopo principale dell'<strong>Information Technology</strong> è dare <strong>supporto</strong> alle <strong>informazioni</strong> e alla <strong>capitalizzazione</strong> delle <strong>informazioni</strong> stesse <strong>in senso più ampio</strong>.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fine Nuovo Testo Inserito -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>© 2025 ICT Decision Support. Tutti i diritti riservati.</p>
+            <div class="social-icons mb-3">
+                <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+            </div>
+            <div>
+                <a href="#" class="text-white me-3">Privacy Policy</a>
+                <a href="#" class="text-white">Termini di Servizio</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sezione Contatti -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contattaci</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Il tuo nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="La tua email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="messaggio" class="form-label">Messaggio</label>
+                            <textarea class="form-control" id="messaggio" rows="4" placeholder="Il tuo messaggio" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS e dipendenze -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

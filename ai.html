@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence - ICT Decision Support</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome (opzionale per le icone) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Aggiunta di stili personalizzati per assicurare la rimozione dei bullet points -->
+    <style>
+        .custom-list {
+            list-style: none; /* Rimuove i bullet points */
+            padding-left: 0;  /* Rimuove il padding a sinistra */
+            text-align: center; /* Centra il testo all'interno della lista */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ICT Decision Support</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">Esplora</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header di Artificial Intelligence -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Artificial Intelligence</h1>
+            <p class="lead">Definizione e Approfondimenti</p>
+            <a href="explore.html" class="btn btn-light btn-sm mt-3 btn-hover">Torna alla pagina di esplorazione</a>
+        </div>
+    </header>
+
+    <!-- Contenuto Principale -->
+    <section class="py-5">
+        <div class="container">
+            
+            <!-- Nuovo Testo Inserito -->
+            <div class="mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-8" style="max-width: 900px; margin: 0 auto; text-align: justify;">
+                        <h3 class="fw-bold text-center">Cos'è l'intelligenza artificiale per il tuo business?</h3>
+                        
+                        <!-- Paragrafi Specifici Centrati -->
+                        <p class="text-center"><strong>Cos'è l'intelligenza artificiale per il tuo business?</strong></p>
+                        
+                        <p class="text-center">In generale, l'<strong>intelligenza artificiale</strong> si dice avrà <strong>impatti consistenti</strong> o <strong>enormi</strong> in tutte le attività.</p>
+                        
+                        <p class="text-center">Ma perché?</p>
+                        
+                        <!-- Testo Giustificato -->
+                        <p>Valutiamo per comparazione. L'idea è quella di immaginare altri <strong>'strumenti'</strong> simili che vengono utilizzati da molti business. Fra questi vengono in mente:</p>
+                        
+                        <!-- Lista Centrata senza Bullet Points -->
+                        <ul class="custom-list">
+                            <p><strong>il marketing</strong></p>
+                            <p><strong>l'informatica</strong></p>
+                            <p><strong>la logistica</strong></p>
+                        </ul>
+                        
+                        <p>Ognuno di questi <strong>strumenti</strong> ha <strong>rivoluzionato</strong> e fatto <strong>crescere esponenzialmente</strong> alcune <strong>aziende</strong>, o <strong>determinato la fine di altre</strong>, di tutte le dimensioni, a partire da piccole realtà e piccoli confronti fino ad arrivare ad aziende facenti parte della <strong>globalizzazione</strong>.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fine Nuovo Testo Inserito -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>© 2025 ICT Decision Support. Tutti i diritti riservati.</p>
+            <div class="social-icons mb-3">
+                <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+            </div>
+            <div>
+                <a href="#" class="text-white me-3">Privacy Policy</a>
+                <a href="#" class="text-white">Termini di Servizio</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sezione Contatti -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contattaci</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="https://formspree.io/f/tuo-endpoint" method="POST">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Il tuo nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="_replyto" placeholder="La tua email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="messaggio" class="form-label">Messaggio</label>
+                            <textarea class="form-control" id="messaggio" name="messaggio" rows="4" placeholder="Il tuo messaggio" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS e dipendenze -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

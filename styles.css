@@ -1,0 +1,128 @@
+/* styles.css */
+
+/* Hero Section */
+.hero-section, .header-explore {
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1920x1080'); /* Sostituisci con un'immagine reale */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-section::after, .header-explore::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.6); /* Overlay blu */
+}
+
+.hero-section .text-center, .header-explore .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Sezioni di Contenuto */
+section.py-5 {
+    background-color: #f8f9fa; /* Colore di sfondo chiaro */
+}
+
+section.py-5 h2, section.py-5 h3 {
+    color: #007bff; /* Colore primario per i titoli */
+}
+
+section.py-5 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section.py-5 p {
+    line-height: 1.6;
+}
+
+/* Call-to-Action Section */
+.cta-section h2 {
+    color: #007bff;
+}
+
+.cta-section .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.cta-section .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer .social-icons a {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #007bff;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Contatti */
+#contact h2 {
+    color: #007bff;
+}
+
+#contact .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+#contact .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 15px;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+/* styles.css */
+
+/* Effetto Hover per Pulsanti */
+.btn-hover {
+    transition: all 0.3s ease;
+}
+
+.btn-hover:hover {
+    background-color: #004085; /* Colore di sfondo più scuro */
+    border-color: #003768;     /* Colore del bordo più scuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aggiunge un'ombra */
+}
+
